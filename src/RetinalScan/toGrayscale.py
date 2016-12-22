@@ -1,4 +1,5 @@
 #converting images to gray scale to identify vessels
+# author sathvik koneru
 import cv2
 import os
 import ctypes
