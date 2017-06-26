@@ -11,7 +11,7 @@ def get_contours(img):
     return contours
 
 if __name__=='__main__':
-    img = cv2.imread('/Users/sathvik/work/python/RetinaDiag/imgs/src/RetinalScan/im0001.ppm')
+    img = cv2.imread('/Users/sathvik/github/RetinaDiag/src/images/DRIVE/test/images/01_test.tif')
 
     # Iterate over the extracted contours
     for contour in get_contours(img):
